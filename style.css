@@ -1,7 +1,7 @@
 @charset "UTF-8"; 
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nova Flat';
 }
 
 body {
@@ -10,11 +10,7 @@ body {
 
 main {
     background-color: #fff;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #0D9E36;
-    box-shadow: 10px 10px 15px #960101de;
+    border-radius: 20px;
     width: 600px;
     padding: 10px;
     margin: auto;
@@ -22,6 +18,12 @@ main {
 
 h1 {
     text-align: center;
-    color: #0D9E36;
-    text-shadow: 1px 1px 2px #000;
+}
+
+h2 {
+    text-align: left;
+}
+
+.price {
+    text-align: right;
 }
